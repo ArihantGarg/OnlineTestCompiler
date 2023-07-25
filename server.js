@@ -7,9 +7,9 @@ const path = require('path');
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
-app.listen(3000 , function (err) {
+app.listen(8000 , function (err) {
     if (err) console.log(err);
-    console.log("Server listening on PORT 3000");
+    console.log("Server listening on PORT 8000");
 });
 
 app.get('/', (req,res)=>{
